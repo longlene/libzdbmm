@@ -1,3 +1,6 @@
+#ifndef zdbmm_INCLUDED
+#define zdbmm_INCLUDED
+
 #include <zdb.h>
 
 namespace ZDB {
@@ -110,3 +113,5 @@ namespace ZDB {
   };
 
 };
+
+#endif // zdbmm_INCLUDED
