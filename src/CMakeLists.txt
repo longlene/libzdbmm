@@ -7,4 +7,4 @@ include_directories(${LIBZDB_INCLUDE_DIRS})
 add_library(zdbmm SHARED ${libzdbmm_SRCS})
 
 install(TARGETS zdbmm DESTINATION lib)
-install(FILES zdbmm.h SQLExceptionmm.h DESTINATION include/zdbmm)
+install(FILES zdbmm.h DESTINATION include/zdbmm)
