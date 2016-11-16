@@ -3,7 +3,7 @@ include(CMakePushCheckState)
 include(CheckFunctionExists)
 
 cmake_push_check_state(REST)
-set(CMAKE_REQUIRED_LIBRARIES ${LIBZDB_INCLUDE_LIBRARIES})
+set(CMAKE_REQUIRED_LIBRARIES ${LIBZDB_LIBRARIES})
 check_function_exists(Exception_init HAVE_EXCEPTION_INIT)
 cmake_pop_check_state()
 
