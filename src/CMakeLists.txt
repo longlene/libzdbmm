@@ -19,3 +19,4 @@ add_library(zdbmm SHARED ${libzdbmm_SRCS})
 
 install(TARGETS zdbmm DESTINATION lib)
 install(FILES zdbmm.h DESTINATION include/zdbmm)
+install(FILES SQLExceptionmm.h DESTINATION include/zdbmm)
